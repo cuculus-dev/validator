@@ -31,5 +31,9 @@
   "volta": {
     "node": "18.18.0",
     "npm": "10.2.0"
+  },
+  "dependencies": {
+    "@types/validator": "^13.9.0",
+    "validator": "^13.9.0"
   }
 }
