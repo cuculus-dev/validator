@@ -1,2 +1,2 @@
-# validators
+# validator
 Validation logic for Cuculus
