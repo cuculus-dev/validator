@@ -15,6 +15,7 @@
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
     "outDir": "./dist",
+    "baseUrl": ".",
     "paths": {
       "@/*": [
         "./src/*"
