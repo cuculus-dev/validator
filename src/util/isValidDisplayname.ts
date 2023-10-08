@@ -1,7 +1,7 @@
 /**
  * ユーザー名の検証
- * @param username
+ * @param displayName
  */
-export default function isValidDisplayname(username: string) {
-  return username.length >= 1 && username.length <= 50;
+export default function isValidDisplayname(displayName: string) {
+  return displayName.length >= 1 && displayName.length <= 50;
 }
