@@ -2,13 +2,21 @@
   "name": "@cuculus/validators",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "test": "jest",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,html}\"",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "prepublishOnly": "tsc -p tsconfig.build.json"
   },
   "husky": {
     "hooks": {
