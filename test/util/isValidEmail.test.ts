@@ -6,11 +6,7 @@ describe('isValidEmail', () => {
   });
 
   it('150文字以上', () => {
-    let prefix = '';
-    for (let i = 0; i < 150; i++) {
-      prefix += 'A';
-    }
-    expect(isValidEmail(`@example.com`)).toBe(false);
+    expect(isValidEmail(`${'A'.repeat(150)}@example.com`)).toBe(false);
   });
 
   it('エイリアスが使用可能', () => {
