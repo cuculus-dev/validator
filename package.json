@@ -1,5 +1,5 @@
 {
-  "name": "@cuculus/validators",
+  "name": "@cuculus/validator",
   "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
